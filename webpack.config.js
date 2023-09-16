@@ -25,6 +25,9 @@ module.exports = {
     mode: 'development',
     module: {
         rules: [
+            // ...other rules...
+
+            // Rule for CSS files
             {
                 test: /\.css$/i,
                 use: [
@@ -38,6 +41,22 @@ module.exports = {
                     },
                 ],
             },
+
+            // // Rule for image files
+            // {
+            //     test: /\.(jpg|jpeg|png|gif|svg)$/,
+            //     use: [
+            //         {
+            //             loader: 'file-loader',
+            //             options: {
+            //                 name: '[name].[ext]',
+            //                 outputPath: 'assets/images/', // Specify the output path for images
+            //             },
+            //         },
+            //     ],
+            // },
         ],
     },
+
+
 };
