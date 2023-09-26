@@ -38,13 +38,11 @@ class Modal {
             class="section-title section-title--blue section-title--less-margin"
           >
             <img src="assets/images/icons/mail.svg" class="section-title__icon" />
-            Хамт <strong>Аялах</strong>
+            Бірге <strong>Саяхаттау</strong>
           </h2>
           <div class="wrapper wrapper--narrow">
             <p class="modal__description">
-              Бид тун удахгүй онлайнаар захиалга өгөх системийг нээх бөгөөд, та
-              одоогоор доорхи сошиал платформуудаар дамжиуулж бидэнтэй холбогдох
-              боломжтой!
+            Жақында біз онлайн тапсырыс беру жүйесін іске қосамыз, қазір сіз бізбен төмендегі әлеуметтік платформалар арқылы байланыса аласыз!
             </p>
           </div>
   
